@@ -75,7 +75,7 @@ def KimNGramCNN(n_classes,
 
 
 if __name__ == '__main__':
-    model = KimNgramCNN(
+    model = KimNGramCNN(
             n_classes=2,
             n_vocab=100,
             max_length=100,
