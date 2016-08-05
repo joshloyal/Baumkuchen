@@ -3,5 +3,7 @@ from __future__ import unicode_literals
 from __future__ import division
 
 
-from .kim_ngram_cnn import KimNGramCNN
-from .autoencoder import AutoEncoder
+from  aeolus.kim_ngram_cnn import KimNGramCNN
+from aeolus.autoencoder import AutoEncoder
+
+import aeolus.autoencoder as autoencoder

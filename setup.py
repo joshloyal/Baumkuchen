@@ -3,6 +3,7 @@ from setuptools import setup
 
 PACKAGES = [
         'aeolus',
+        'aeolus.tests',
 ]
 
 def setup_package():
