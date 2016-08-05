@@ -8,9 +8,6 @@ from aeolus.autoencoder import gaussian_noise
 from aeolus.tests.fixtures import mnist_dataset
 
 
-
-
-
 def test_plain_autoencoder(mnist_dataset):
     X_train, X_test =  mnist_dataset
     model = AutoEncoder(input_dim=784, encoding_dim=32)
