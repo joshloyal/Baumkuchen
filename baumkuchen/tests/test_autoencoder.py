@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from __future__ import division
 
 from baumkuchen import AutoEncoder
-from baumkuchen.autoencoder import gaussian_noise
+from baumkuchen.models.autoencoder import gaussian_noise
 
 from baumkuchen.tests.fixtures import mnist_dataset
 
