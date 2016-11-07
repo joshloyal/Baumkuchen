@@ -2,10 +2,10 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 from __future__ import division
 
-from aeolus import AutoEncoder
-from aeolus.autoencoder import gaussian_noise
+from baumkuchen import AutoEncoder
+from baumkuchen.autoencoder import gaussian_noise
 
-from aeolus.tests.fixtures import mnist_dataset
+from baumkuchen.tests.fixtures import mnist_dataset
 
 
 def test_plain_autoencoder(mnist_dataset):
