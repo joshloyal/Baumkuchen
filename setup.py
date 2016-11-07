@@ -3,6 +3,8 @@ from setuptools import setup
 
 PACKAGES = [
         'baumkuchen',
+        'baumkuchen.models',
+        'baumkuchen.opt',
         'baumkuchen.tests',
 ]
 
